@@ -10,5 +10,5 @@
 	vim,git,make,C compiler,bash
 
 #install
-git clone <this repo> or get zip file and unzip.
+	git clone <this repo> or get zip file and unzip.
 	sh ./install
