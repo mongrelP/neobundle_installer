@@ -1,4 +1,4 @@
-# What'sãthis?
+# What's this?
 	this is NeoBundle(vim plugin installer) and some vim plugins installer
 
 # License
