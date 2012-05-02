@@ -1,0 +1,15 @@
+#!/bin/bash
+mkdir -p ~/.vim/bundle
+git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+git clone https://github.com/Shougo/vimproc.git  ~/.vim/bundle/vimproc
+mv ~/.vimrc ~/.vimrc.old
+cp ./vimrc ~/.vimrc
+echo ''
+echo 'after run,do this commands'
+echo ''
+echo 'cd ~/.vim/bundle/vimproc'
+echo '$ (n,g)make -f your_environment.mak'
+echo ''
+echo 'and run vim, Esc-: NeoBundleInstall! '
+echo 'your old .vimrc moved ~/.vimrc.old'
+echo ''
