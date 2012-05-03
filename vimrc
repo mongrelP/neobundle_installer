@@ -17,6 +17,7 @@ endif
  NeoBundle 'Shougo/vimshell'
 
  NeoBundle 'mattn/zencoding-vim'
+ NeoBundle 'mattn/webapi-vim'
  NeoBundle 'mattn/gist-vim'
 
  NeoBundle 'thinca/vim-quickrun'
