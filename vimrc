@@ -30,6 +30,10 @@ endif
  NeoBundle 'scrooloose/nerdtree'
 filetype plugin indent on
 
+"encode
+set encoding=utf-8
+set fileencodings=iso-2022-jp,utf-8,cp932,euc-jp,default,latin
+
 "colorscheme
 colorscheme mrkn256
 
